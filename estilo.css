@@ -1,0 +1,354 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+.logoalura {
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 10px;
+    top: 20px;
+
+}
+
+body {
+    width: 1200px;
+    background-color: #F3F5FC;
+} 
+
+.avisoletra {
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 120px;
+    top: 650px;
+}
+
+.input-texto {
+    position: absolute;
+    width: 640px;
+    height: 450px;
+    left: 120px;
+    top: 168px;
+    color: #0A3871;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F5FC;
+    border-radius: 32px;
+    border: none;
+    
+}
+
+/* .botoes {
+    /* display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 100px;
+    top: 660px;
+
+} */
+
+.encriptar {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 110px;
+    top: 675px;
+    background: #0A3871;
+    border-radius: 24px;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0;*/
+    /* margin: 0px 14px;  */
+    font-size: 0.5em;
+    color: #FFFFFF;
+    
+}
+.desencriptar {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 452px;
+    top: 675px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* flex: none;
+    order: 1;
+    flex-grow: 0;
+     */
+    font-size: 0.5em;
+    /* margin: 0px 14px; */
+}
+.mensagem {
+    position: absolute;
+    width: 400px;
+    height: 750px;
+    left: 800px;
+    top: 40px;
+    border-radius: 32px;
+    border: none;
+    text-align: center;
+    /* padding: 40px 0px 0px 0px; */
+    
+
+}
+.fundo-mensagem {
+    position: absolute;
+    width: 400px;
+    height: 750px;
+    left: 800px;
+    top: 40px;
+    border-radius: 32px;
+    border: none;
+    background: #FFFFFF;
+}
+
+.boneco {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 210px;
+}
+
+.informar-h1 {
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 32px;
+    top: 540px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.informar-texto {
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 32px;
+    top: 640px;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.copiar {
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 830px;
+    top: 720px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 0.5em;
+}
+/* .rodape{
+    position: absolute;
+    top: 760px;
+    background:thistle;
+    color: #FFFFFF;
+} */
+/* Configurações para responsivo */
+@media (max-width: 768px) {
+    
+    /* * {
+        width: 100%;
+
+    } */
+    body{
+        width: 768px;
+    }
+    .boneco{
+        display: none;
+    }
+    .logoalura{
+        position: absolute;
+        width: 94px;
+        height: 50.58px;
+        left: 40px;
+        top: 50px;
+    }
+    .input-texto{
+        position: absolute;
+        width: 650px;
+        height: 48px;
+        left: 40px;
+        top: 240px;
+    }
+    .avisoletra{
+        position: absolute;
+        width: 252px;
+        height: 18px;
+        left: 40px;
+        top: 736px;
+    }
+    .encriptar {
+        position: absolute;
+        width: 318px;
+        height: 67px;
+        left: 40px;
+        top: 760px;
+        background: #0A3871;
+        border-radius: 24px;
+        /* flex: none;
+        order: 0;
+        flex-grow: 0;*/
+        /* margin: 0px 14px;  */
+        font-size: 0.5em;
+        color: #FFFFFF;
+        
+    }
+    .desencriptar {
+        position: absolute;
+        width: 318px;
+        height: 67px;
+        left: 388px;
+        top: 760px;
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        /* flex: none;
+        order: 1;
+        flex-grow: 0;
+         */
+        font-size: 0.5em;
+        /* margin: 0px 14px; */
+    }
+    /* .botoes{
+        position: absolute;
+        width: 688px;
+        height: 67px;
+        left: 6px;
+        top: 870px;
+    } */
+    .fundo-mensagem{
+        position: absolute;
+        width: 670px;
+        height: 233px;
+        left: 40px;
+        top: 880px;
+    }
+    .informar-h1{
+        position: absolute;
+        width: 624px;
+        height: 29px;
+        left: 0px;
+        top: 20px;
+    }
+    .informar-texto{
+        position: absolute;
+        width: 624px;
+        height: 24px;
+        left: 0px;
+        top: 85px;
+    }
+    .mensagem{
+        position: absolute;
+        width: 670px;
+        height: 233px;
+        left: 40px;
+        top: 880px;
+    }
+    .copiar{
+        position: absolute;
+        width: 614px;
+        height: 67px;
+        left: 70px;
+        top: 1020px;
+    }
+  
+}
+
+@media (max-width: 375px){
+    .boneco{
+        display: none;
+    }
+    /* body{
+        position: relative;
+        width: 375px;
+        height: 933px;
+    } */
+    .logoalura{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        
+    }
+    .input-texto{
+        position: absolute;
+        width: 280px;
+        height: 48px;
+        left: 40px;
+        top: 232px;
+    }
+    .avisoletra{
+        position: absolute;
+        width: 250px;
+        height: 18px;
+        left: 40px;
+        top: 470px;
+    }
+    /* .botoes{
+        position: absolute;
+        width: 300px;
+        height: 158px;
+        left: 0px;
+        top: 485px;
+    } */
+    .encriptar{
+        position: absolute;
+        width: 280px;
+        height: 67px;
+        left: 40px;
+        top: 500px;
+    }
+    .desencriptar{
+        position: absolute;
+        width: 280px;
+        height: 67px;
+        left: 40px;
+        top: 590px;
+    }
+    .fundo-mensagem{
+        position: absolute;
+        width: 280px;
+        height: 186px;
+        left: 40px;
+        top: 700px;
+    }
+    .informar-h1{
+        position: absolute;
+        width: 263px;
+        height: 58px;
+        left: 20px;
+        top: 0px;
+    }
+    .informar-texto{
+        position: absolute;
+        width: 263px;
+        height: 48px;
+        left: 20px;
+        top: 94px;
+    }
+    .mensagem{
+        position: absolute;
+        width: 280px;
+        height: 186px;
+        left: 40px;
+        top: 700px;
+    }
+    .copiar{
+        position: absolute;
+        width: 280px;
+        height: 67px;
+        left: 40px;
+        top: 850px;
+    }
+}
