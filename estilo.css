@@ -268,7 +268,7 @@ main {
     .logoalura{
         position: absolute;
         left: 20px;
-        top: 50px; 
+        top: 20px; 
     }
 
     .input-texto{
@@ -276,7 +276,7 @@ main {
         width: 260px;
         height: 48px;
         left: 40px;
-        top: 30px;
+        top: 20px;
         font-size: 24px;
     }
 
@@ -285,7 +285,7 @@ main {
         width: 250px;
         height: 18px;
         left: 50px;
-        top: 320px;
+        top: 310px;
     }
     
     .encriptar{
@@ -293,7 +293,7 @@ main {
         width: 280px;
         height: 57px;
         left: 50px;
-        top: 350px;
+        top: 340px;
     }
 
     .desencriptar{
@@ -301,7 +301,7 @@ main {
         width: 280px;
         height: 57px;
         left: 50px;
-        top: 420px;
+        top: 410px;
     }
 
     .fundo-mensagem{
@@ -309,7 +309,7 @@ main {
         width: 280px;
         height: 186px;
         left: 50px;
-        top: 490px;
+        top: 480px;
     }
 
     .informar-h1{
@@ -334,7 +334,7 @@ main {
         width: 280px;
         height: 186px;
         left: 50px;
-        top: 490px;
+        top: 480px;
     }
 
     .copiar{
@@ -342,24 +342,24 @@ main {
         width: 280px;
         height: 67px;
         left: 50px;
-        top: 600px;
+        top: 590px;
     }
 
     .rodape p{
         position: absolute;
         top: 670px;
-        left: 70px;
+        left: 60px;
     }
 
     .link{
         position: absolute;
-        top: 700px;
+        top: 690px;
         left: 120px;
     }
 
     .git{
         position: absolute;
-        top: 700px;
+        top: 690px;
         left: 170px; 
     }
 }
