@@ -276,7 +276,7 @@ main {
         width: 260px;
         height: 48px;
         left: 40px;
-        top: 40px;
+        top: 30px;
         font-size: 24px;
     }
 
@@ -285,7 +285,7 @@ main {
         width: 250px;
         height: 18px;
         left: 50px;
-        top: 330px;
+        top: 320px;
     }
     
     .encriptar{
@@ -293,7 +293,7 @@ main {
         width: 280px;
         height: 57px;
         left: 50px;
-        top: 360px;
+        top: 350px;
     }
 
     .desencriptar{
@@ -301,7 +301,7 @@ main {
         width: 280px;
         height: 57px;
         left: 50px;
-        top: 430px;
+        top: 420px;
     }
 
     .fundo-mensagem{
@@ -309,7 +309,7 @@ main {
         width: 280px;
         height: 186px;
         left: 50px;
-        top: 500px;
+        top: 490px;
     }
 
     .informar-h1{
@@ -334,7 +334,7 @@ main {
         width: 280px;
         height: 186px;
         left: 50px;
-        top: 500px;
+        top: 490px;
     }
 
     .copiar{
@@ -342,24 +342,24 @@ main {
         width: 280px;
         height: 67px;
         left: 50px;
-        top: 610px;
+        top: 600px;
     }
 
     .rodape p{
         position: absolute;
-        top: 680px;
+        top: 670px;
         left: 70px;
     }
 
     .link{
         position: absolute;
-        top: 710px;
+        top: 700px;
         left: 120px;
     }
 
     .git{
         position: absolute;
-        top: 710px;
+        top: 700px;
         left: 170px; 
     }
 }
