@@ -135,6 +135,21 @@ main {
     font-size: 0.5em;
 }
 
+.rodape{
+    text-align: center;
+    font-size: small;
+}
+.rodape p{
+    font-size: small;
+}
+.rodape img{
+    /* top: 10px; */
+    padding: 10px;
+}
+.link, .git{
+    width: 50px;
+}
+
 /* Configurações para responsivo */
 @media  (max-width: 1200px) {
 
@@ -232,8 +247,8 @@ main {
     
     .logoalura{
         position: absolute;
-        left: 10px;
-        top: 10px; 
+        left: 20px;
+        top: 50px; 
     }
 
     .input-texto{
@@ -299,7 +314,7 @@ main {
         width: 280px;
         height: 186px;
         left: 50px;
-        top: 540px;
+        top: 500px;
     }
 
     .copiar{
@@ -307,6 +322,6 @@ main {
         width: 280px;
         height: 67px;
         left: 50px;
-        top: 690px;
+        top: 610px;
     }
 }
