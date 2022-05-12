@@ -179,7 +179,7 @@ main {
     color: #FFFFFF;
 } */
 /* Configurações para responsivo */
-@media (min-width: 480px) and (max-width: 1200px) {
+@media (min-width: 680px) and (max-width: 1200px) {
 
     /* * {
         width: 100%;
@@ -293,7 +293,7 @@ main {
 
 }
 
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 680px){
     .boneco{
         display: none;
     }
