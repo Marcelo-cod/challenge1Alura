@@ -139,13 +139,15 @@ main {
     text-align: center;
     font-size: small;
 }
+
 .rodape p{
     font-size: small;
 }
+
 .rodape img{
-    /* top: 10px; */
     padding: 10px;
 }
+
 .link, .git{
     width: 50px;
 }
@@ -238,6 +240,24 @@ main {
         top: 1020px;
     }
 
+    .rodape p{
+        position: absolute;
+        top: 1120px;
+        left: 150px;
+    }
+
+    .link{
+        position: absolute;
+        top: 1120px;
+        left: 390px;
+    }
+
+    .git{
+        position: absolute;
+        top: 1120px;
+        left: 440px; 
+    }
+
 }
 
 @media (max-width: 600px){
@@ -323,5 +343,23 @@ main {
         height: 67px;
         left: 50px;
         top: 610px;
+    }
+
+    .rodape p{
+        position: absolute;
+        top: 680px;
+        left: 70px;
+    }
+
+    .link{
+        position: absolute;
+        top: 710px;
+        left: 120px;
+    }
+
+    .git{
+        position: absolute;
+        top: 710px;
+        left: 170px; 
     }
 }
