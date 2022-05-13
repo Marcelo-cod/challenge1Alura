@@ -44,7 +44,7 @@ function encriptar(stringEncriptada) {
 
     let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase();
-    stringEncriptada = stringEncriptada.normalize("NFD").replace(/[^a-zA-Zs]/g, " ");
+    stringEncriptada = stringEncriptada.normalize("NFD").replace(/[^a-zA-Zs]/g, "");
 
         for(let i = 0; i < matrizCodigo.length; i++) {
             if (stringEncriptada.includes(matrizCodigo[i][0])) {
